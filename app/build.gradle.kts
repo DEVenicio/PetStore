@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("androidx.navigation.safeargs.kotlin")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -40,6 +42,28 @@ android {
 }
 
 dependencies {
+
+    //Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+
+    //Gson
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    //Koin
+    implementation ("io.insert-koin:koin-core:3.2.0")
+    implementation ("io.insert-koin:koin-android:3.2.0")
+
+    //Glide
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+
+    //Lib para mockar os dados retornado da API
+    debugImplementation ("com.github.brunogabriel.mockp-interceptor:library:0.0.1")
+
+    //Room
+    implementation ("androidx.room:room-runtime:2.5.2")
+    annotationProcessor ("androidx.room:room-compiler:2.5.2")
+
+
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

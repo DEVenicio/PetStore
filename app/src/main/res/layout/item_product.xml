@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="160dp"
-    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_products"
+    android:layout_width="140dp"
+    android:layout_height="220dp"
     android:layout_margin="4dp"
     app:cardCornerRadius="20dp"
     app:cardElevation="8dp">
@@ -11,35 +13,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:id="@+id/container_iv_product"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="6dp"
+        <ImageView
+            android:id="@+id/iv_product"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/iv_product"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_alignParentTop="true"
-                android:scaleType="fitXY"
-                android:src="@drawable/cama" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:background="@color/green_discount"
-                android:fontFamily="@font/quicksand_bold"
-                android:padding="1dp"
-                android:text="10% OFF"
-                android:textColor="@color/white"
-                android:textSize="12sp" />
-        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green_discount"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/iv_product"
+            app:layout_constraintTop_toTopOf="@id/iv_product"
+            tools:text="10% OFF" />
 
         <TextView
             android:id="@+id/tv_title_product"
@@ -49,59 +45,42 @@
             android:text="Cama Logus Blue - Chicxs"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/container_iv_product" />
+            app:layout_constraintStart_toStartOf="@id/iv_product"
+            app:layout_constraintTop_toBottomOf="@id/iv_product" />
 
-        <TextView
-            android:id="@+id/tv_old_price"
+        <RelativeLayout
+            android:id="@+id/ll_price"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginTop="8dp"
-            android:text="De:"
-            android:textSize="12sp"
-            app:layout_constraintStart_toStartOf="@id/tv_title_product"
-            app:layout_constraintTop_toBottomOf="@id/tv_title_product" />
-
-        <TextView
-            android:id="@+id/tv_old_price_value"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:text="R$ 295,90"
-            android:textColor="@color/red"
-            android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@id/tv_old_price"
-            app:layout_constraintTop_toBottomOf="@id/tv_title_product" />
-
-        <TextView
-            android:id="@+id/tv_new_price"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
-            android:text="Por:"
-            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@id/tv_title_product"
-            app:layout_constraintTop_toBottomOf="@id/tv_old_price" />
+            app:layout_constraintStart_toStartOf="parent">
 
-        <TextView
-            android:id="@+id/tv_old_new_value"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
-            android:text="R$ 266,31"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@id/tv_old_price"
-            app:layout_constraintTop_toBottomOf="@id/tv_old_price_value" />
+            <TextView
+                android:id="@+id/tv_old_price_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv_new_price_value"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:visibility="visible"
+                tools:text="R$ 29,90" />
+
+            <TextView
+                android:id="@+id/tv_new_price_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="R$ 26,31" />
+        </RelativeLayout>
 
         <ImageView
             android:id="@+id/iv_supermarket_cart"
@@ -109,9 +88,9 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:src="@drawable/carrinho"
-            app:layout_constraintBottom_toBottomOf="@id/tv_old_new_value"
+            app:layout_constraintBottom_toBottomOf="@id/ll_price"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/tv_old_price_value" />
+            app:layout_constraintTop_toTopOf="@id/ll_price" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

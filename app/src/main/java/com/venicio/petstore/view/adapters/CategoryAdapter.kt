@@ -1,15 +1,15 @@
 package com.venicio.petstore.view.adapters
 
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.venicio.petstore.data.model.Category
 import com.venicio.petstore.databinding.ItemCategoryBinding
-import kotlin.random.Random
 
 class CategoryAdapter() :
     ListAdapter<Category, CategoryAdapter.CategoryVH>(DiffUtilCategory()) {
@@ -28,16 +28,12 @@ class CategoryAdapter() :
     class CategoryVH(val binding: ItemCategoryBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bindCategory(dataCategory: Category) {
             binding.tvTitleCategory.text = dataCategory.name
-            binding.ivCategory.setBackgroundColor(generateRandomColor())
-        }
 
-        fun generateRandomColor(): Int {
-            val alpha = 255
-            val red = Random.nextInt(256)
-            val green = Random.nextInt(256)
-            val blue = Random.nextInt(256)
-
-            return Color.argb(alpha, red, green, blue)
+            Glide.with(binding.ivCategory)
+                .load(dataCategory.category_image)
+                //posso colocar um tratamento em caso de erro no carregamento da imagem
+                .transition(DrawableTransitionOptions.withCrossFade())
+                .into(binding.ivCategory)
         }
 
     }

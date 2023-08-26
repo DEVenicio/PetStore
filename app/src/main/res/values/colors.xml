@@ -8,5 +8,6 @@
     <color name="magenta_default">#B41C8B</color>
     <color name="green_discount">#77D400</color>
     <color name="red">#FF0000</color>
+    <color name="gray">#656464</color>
 
 </resources>

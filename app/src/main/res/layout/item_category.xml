@@ -24,7 +24,8 @@
                 android:id="@+id/iv_category"
                 android:layout_width="56dp"
                 android:layout_height="56dp"
-                android:scaleType="fitXY" />
+                android:scaleType="centerCrop"
+                android:src="@color/magenta_default"/>
 
         </androidx.cardview.widget.CardView>
     </androidx.cardview.widget.CardView>

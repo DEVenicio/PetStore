@@ -1,0 +1,510 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ração para Cães",
+      "category_image": "https://img.freepik.com/fotos-gratis/composicao-de-alimentos-para-animais-de-estimacao-naturezas-mortas_23-2148982345.jpg?w=2000&t=st=1692889316~exp=1692889916~hmac=831d7aa6a92eb2f47d3c00ada33096452d0b9d32aecd8ac592f314c1436c7d5b",
+      "products": [
+        {
+          "id": 101,
+          "name": "Ração Premium - Pedigree Max Vida",
+          "old_price": 30.49,
+          "current_price": 24.39,
+          "discount": "20%",
+          "product_image":"http://naoexiste",
+          "description": "Ração Premium é um alimento altamente nutritivo e saboroso para cães de todas as raças. Feita com ingredientes cuidadosamente selecionados, essa ração proporciona uma dieta balanceada e saudável. Com vitaminas essenciais e proteínas de alta qualidade, é perfeita para manter a saúde e a energia do seu cão em dia."
+        },
+        {
+          "id": 102,
+          "name": "Ração Natural",
+          "old_price": 27.49,
+          "current_price": 22.99,
+          "discount": null,
+          "product_image": null,
+          "description": "Nossa Ração Natural é a escolha ideal para proprietários que buscam uma alimentação mais próxima à natureza para seus cães. Elaborada com ingredientes naturais e livre de corantes artificiais, essa ração oferece uma dieta equilibrada e saborosa. Proporcione ao seu cão o melhor da natureza em cada refeição."
+        },
+        {
+          "id": 103,
+          "name": "Ração para Filhotes",
+          "old_price": 32.99,
+          "current_price": 28.99,
+          "discount": "12%",
+          "description": "A Ração para Filhotes é desenvolvida especialmente para atender às necessidades dos cãezinhos em crescimento. Rica em nutrientes essenciais, como proteínas e cálcio, essa ração contribui para o desenvolvimento saudável dos ossos, músculos e sistema imunológico. Proporcione ao seu filhote um começo de vida cheio de vitalidade."
+        },
+        {
+          "id": 104,
+          "name": "Ração para Cães Idosos",
+          "old_price": 25.99,
+          "current_price": 21.99,
+          "discount": null,
+          "description": "Os cães idosos merecem cuidados especiais, e nossa Ração para Cães Idosos é a opção ideal para garantir a saúde e o bem-estar na terceira idade. Com ingredientes de fácil digestão e nutrientes que auxiliam nas articulações, essa ração ajuda a manter o seu companheiro da melhor forma."
+        },
+        {
+          "id": 105,
+          "name": "Ração Hipoalergênica",
+          "old_price": 34.99,
+          "current_price": 29.99,
+          "discount": "15%",
+          "description": "Cães com sensibilidades alimentares merecem uma ração especial. Nossa Ração Hipoalergênica é formulada com ingredientes selecionados para reduzir o risco de reações alérgicas. Com fontes de proteína de alta qualidade e carboidratos de fácil digestão, é a escolha certa para cães com estômagos sensíveis."
+        },
+        {
+          "id": 106,
+          "name": "Ração Orgânica",
+          "old_price": 37.99,
+          "current_price": 32.99,
+          "discount": null,
+          "description": "Se a saúde do seu cão é uma prioridade e você valoriza produtos orgânicos, nossa Ração Orgânica é a alternativa perfeita. Feita com ingredientes cultivados sem o uso de pesticidas ou produtos químicos, essa ração oferece uma experiência alimentar natural e saudável para o seu companheiro fiel."
+        },
+        {
+          "id": 107,
+          "name": "Ração Light",
+          "old_price": 28.99,
+          "current_price": 24.99,
+          "discount": "18%",
+          "description": "Para cães com necessidades de controle de peso, nossa Ração Light é a solução ideal. Com menor teor calórico e ingredientes balanceados, essa ração ajuda a manter seu cão em forma sem comprometer a nutrição. Ajude o seu cão a alcançar e manter um peso saudável com uma alimentação saborosa e equilibrada."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ração para Gatos",
+      "category_image": "https://img.freepik.com/fotos-gratis/belo-retrato-de-gato-como-animal-de-estimacao_23-2149218472.jpg?w=1800&t=st=1692889969~exp=1692890569~hmac=604a99cd442803c83d0e748dd4e4d235603b790e873d6ef599df497a2ece3149",
+      "products": [
+        {
+          "id": 201,
+          "name": "Ração Indoor",
+          "old_price": 22.99,
+          "current_price": 19.99,
+          "discount": null,
+          "description": "Gatos que vivem em ambientes internos têm necessidades especiais. Nossa Ração Indoor foi desenvolvida pensando nas características desses felinos, oferecendo uma fórmula que ajuda a controlar o peso e promover a saúde urinária. Proporcione ao seu gato uma alimentação que atenda às suas particularidades."
+        },
+        {
+          "id": 202,
+          "name": "Ração Premium Gatos",
+          "old_price": 24.49,
+          "current_price": 20.99,
+          "discount": "14%",
+          "description": "Nossos amigos felinos merecem o melhor, e a Ração Premium Gatos é a escolha perfeita para agradar até os paladares mais exigentes. Com ingredientes de alta qualidade e sabor irresistível, essa ração proporciona uma experiência alimentar que vai deixar o seu gato pedindo por mais."
+        },
+        {
+          "id": 203,
+          "name": "Ração para Gatos Filhotes",
+          "old_price": 28.99,
+          "current_price": 24.99,
+          "discount": null,
+          "description": "Os primeiros meses de vida são cruciais para o desenvolvimento dos gatinhos. Nossa Ração para Gatos Filhotes oferece todos os nutrientes essenciais para um crescimento saudável. Com proteínas de qualidade e vitaminas importantes, essa ração é o cuidado que o seu filhote merece."
+        },
+        {
+          "id": 204,
+          "name": "Ração para Gatos Sênior",
+          "old_price": 26.99,
+          "current_price": 23.99,
+          "discount": "20%",
+          "description": "Na terceira idade, os gatos precisam de cuidados especiais para manter a vitalidade. Nossa Ração para Gatos Sênior é formulada com nutrientes que apoiam a saúde das articulações, função renal e sistema imunológico. Proporcione ao seu gato idoso uma alimentação que valoriza cada fase da vida."
+        },
+        {
+          "id": 205,
+          "name": "Ração Grain-Free",
+          "old_price": 31.99,
+          "current_price": 27.99,
+          "discount": null,
+          "description": "Gatos com sensibilidades alimentares podem se beneficiar da nossa Ração Grain-Free, livre de grãos e ingredientes potencialmente alergênicos. Com fontes de proteína alternativas e carboidratos de fácil digestão, essa ração é gentil com estômagos sensíveis e mantém seu gato satisfeito e saudável."
+        },
+        {
+          "id": 206,
+          "name": "Ração Funcional",
+          "old_price": 30.99,
+          "current_price": 26.99,
+          "discount": null,
+          "description": "Alguns gatos têm necessidades específicas, como suporte à saúde das articulações ou da pelagem. Nossa Ração Funcional oferece ingredientes adicionais para atender a essas demandas. Proporcione ao seu gato uma alimentação que cuida de aspectos específicos da sua saúde e bem-estar."
+        },
+        {
+          "id": 207,
+          "name": "Ração Hairball Control",
+          "old_price": 23.99,
+          "current_price": 19.99,
+          "discount": null,
+          "description": "Bolas de pelo podem ser um problema para gatos, mas nossa Ração Hairball Control está aqui para ajudar. Com fibras especiais que auxiliam na eliminação das bolas de pelo, essa ração mantém seu gato confortável e feliz, sem incômodos digestivos."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brinquedos para Cães",
+      "category_image": "https://img.freepik.com/psd-gratuitas/adoravel-cena-de-cachorro-de-estimacao_23-2150179282.jpg?w=2000&t=st=1692890187~exp=1692890787~hmac=ff6f38968e29164dc5e2a8782f583e806ab9529f34a6de782b54624a018f290d",
+      "products": [
+        {
+          "id": 301,
+          "name": "Bola de Borracha",
+          "old_price": 5.99,
+          "current_price": 4.49,
+          "discount": "25%",
+          "description": "A Bola de Borracha é o brinquedo perfeito para cães que adoram mastigar e se divertir. Feita com material resistente, essa bola é ótima para jogos de busca e para aliviar o instinto natural de roer. Mantenha seu cão entretido e exercitado com esse brinquedo durável."
+        },
+        {
+          "id": 302,
+          "name": "Frizbee",
+          "old_price": 7.49,
+          "current_price": 6.29,
+          "discount": null,
+          "description": "O Frizbee é diversão garantida para cães ativos que adoram brincar ao ar livre. Feito com material leve e durável, esse brinquedo é perfeito para jogos de arremesso e busca. Estimule a agilidade e a diversão do seu cão com o nosso Frizbee resistente."
+        },
+        {
+          "id": 303,
+          "name": "Osso de Nylon",
+          "old_price": 8.99,
+          "current_price": 7.19,
+          "discount": "10%",
+          "description": "O Osso de Nylon é uma opção segura e durável para cães que gostam de mastigar. Feito com material resistente, esse osso ajuda a fortalecer a dentição e proporciona horas de entretenimento saudável. Proporcione ao seu cão uma alternativa resistente aos objetos da casa."
+        },
+        {
+          "id": 304,
+          "name": "Pelúcia com Squeaker",
+          "old_price": 6.99,
+          "current_price": 5.49,
+          "discount": null,
+          "description": "A Pelúcia com Squeaker é perfeita para cães que adoram brinquedos macios e interativos. O squeaker interno estimula o interesse do cão, e a textura suave é ideal para momentos de aconchego. Deixe o seu cão se divertir com esse brinquedo que estimula a curiosidade."
+        },
+        {
+          "id": 305,
+          "name": "Corda de Puxar",
+          "old_price": 4.49,
+          "current_price": 3.79,
+          "discount": "15%",
+          "description": "A Corda de Puxar é um clássico que cães de todas as idades adoram. Ideal para jogos de cabo de guerra e exercícios de mastigação, essa corda é resistente e proporciona diversão interativa entre você e o seu cão. Fortaleça o vínculo com o seu amigo de quatro patas com esse brinquedo versátil."
+        },
+        {
+          "id": 306,
+          "name": "Brinquedo Interativo",
+          "old_price": 9.99,
+          "current_price": 7.99,
+          "discount": null,
+          "description": "Estimule a mente do seu cão com nosso Brinquedo Interativo. Com compartimentos e desafios que escondem petiscos, esse brinquedo mantém o cão entretido enquanto estimula suas habilidades cognitivas. Desperte a curiosidade do seu cão com esse brinquedo intelectualmente enriquecedor."
+        },
+        {
+          "id": 307,
+          "name": "Bola de Tênis com Corda",
+          "old_price": 6.49,
+          "current_price": 4.99,
+          "discount": "20%",
+          "description": "A Bola de Tênis com Corda é diversão garantida para cães que adoram brincadeiras ativas. A bola quicante e a corda resistente oferecem horas de entretenimento e exercício. Incentive o seu cão a se movimentar e se divertir com esse brinquedo dinâmico."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Brinquedos para Gatos",
+      "category_image": "https://img.freepik.com/fotos-gratis/gato-cinza-reto-escoces-bonito-cacando-e-jogando_574295-2640.jpg?size=626&ext=jpg&ga=GA1.2.1303813449.1692638336&semt=ais",
+      "products": [
+        {
+          "id": 401,
+          "name": "Varinha com Pena",
+          "old_price": 3.99,
+          "current_price": 2.49,
+          "discount": null,
+          "description": "A Varinha com Pena é a escolha perfeita para estimular o instinto de caça do seu gato. Mova a pena de maneira cativante para entreter e exercitar o seu felino. Proporcione momentos de diversão e interação com esse brinquedo que vai manter o seu gato ativo e feliz."
+        },
+        {
+          "id": 402,
+          "name": "Bolinhas com Guizo",
+          "old_price": 4.49,
+          "current_price": 3.19,
+          "discount": "15%",
+          "description": "As Bolinhas com Guizo são diversão garantida para gatos curiosos. O guizo interno desperta o interesse do seu gato, estimulando o instinto de caça. Deixe o seu felino se divertir com essas bolinhas coloridas que vão mantê-lo entretido por horas a fio."
+        },
+        {
+          "id": 403,
+          "name": "Arranhador com Catnip",
+          "old_price": 15.99,
+          "current_price": 12.99,
+          "discount": null,
+          "description": "O Arranhador com Catnip é mais do que um simples brinquedo. Ele oferece uma superfície resistente para o seu gato afiar as unhas, além de conter catnip, que estimula a interação e a atividade. Mantenha as unhas do seu gato saudáveis e a diversão em alta com esse arranhador versátil."
+        },
+        {
+          "id": 404,
+          "name": "Mouse de Pelúcia",
+          "old_price": 2.99,
+          "current_price": 1.99,
+          "discount": "10%",
+          "description": "O Mouse de Pelúcia é um clássico que nunca sai de moda. Com catnip no interior, esse brinquedo atrai a atenção do seu gato e estimula o instinto de caça. Deixe o seu felino se divertir com esse mouse fofinho que vai garantir momentos de diversão e entretenimento."
+        },
+        {
+          "id": 405,
+          "name": "Túnel de Atividades",
+          "old_price": 19.99,
+          "current_price": 16.99,
+          "discount": null,
+          "description": "O Túnel de Atividades é diversão em dobro para gatos aventureiros. Com aberturas para entrada e saída, além de um espaço interno para explorar, esse túnel proporciona diversão e esconderijos para o seu felino. Estimule a curiosidade e a brincadeira com esse túnel cativante."
+        },
+        {
+          "id": 406,
+          "name": "Brinquedo Laser",
+          "old_price": 8.49,
+          "current_price": 6.99,
+          "discount": "20%",
+          "description": "O Brinquedo Laser é uma forma divertida de entreter o seu gato. O laser projetado cria movimentos imprevisíveis que despertam o instinto de caça do seu felino. Deixe o seu gato perseguir o laser e se divertir com esse brinquedo que proporciona horas de diversão interativa."
+        },
+        {
+          "id": 407,
+          "name": "Bola de Sisal",
+          "old_price": 4.99,
+          "current_price": 3.99,
+          "discount": null,
+          "description": "A Bola de Sisal é perfeita para gatos que adoram exercitar as garras. O sisal resistente ajuda a manter as unhas saudáveis, enquanto o formato e a textura da bola estimulam a brincadeira. Deixe o seu gato se divertir enquanto cuida da saúde das garras."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Higiene e Cuidados",
+      "category_image": "https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218454.jpg?size=626&ext=jpg&ga=GA1.1.1303813449.1692638336&semt=ais",
+      "products": [
+        {
+          "id": 501,
+          "name": "Shampoo para Cães",
+          "old_price": 12.99,
+          "current_price": 9.99,
+          "discount": "10%",
+          "description": "O Shampoo para Cães é essencial para manter a pelagem do seu amigo limpa e saudável. Formulado com ingredientes suaves, esse shampoo remove a sujeira e odores indesejados, deixando um aroma agradável. Cuide da higiene do seu cão com um banho revigorante."
+        },
+        {
+          "id": 502,
+          "name": "Escova de Gatos",
+          "old_price": 6.99,
+          "current_price": 5.49,
+          "discount": null,
+          "description": "A Escova de Gatos é perfeita para manter a pelagem do seu felino desembaraçada e brilhante. As cerdas macias removem os pelos soltos e estimulam a circulação sanguínea, promovendo uma pelagem saudável e livre de nós. Mime o seu gato com uma escovação relaxante."
+        },
+        {
+          "id": 503,
+          "name": "Tapete Higiênico",
+          "old_price": 14.49,
+          "current_price": 11.99,
+          "discount": "15%",
+          "description": "O Tapete Higiênico é uma solução prática para cães treinados a fazer as necessidades dentro de casa. Com camadas absorventes e à prova de vazamentos, esse tapete oferece praticidade e higiene. Mantenha a limpeza do ambiente e facilite o treinamento do seu cão."
+        },
+        {
+          "id": 504,
+          "name": "Cortador de Unhas",
+          "old_price": 8.99,
+          "current_price": 6.49,
+          "discount": null,
+          "description": "O Cortador de Unhas é uma ferramenta essencial para manter as unhas do seu cão ou gato com o tamanho adequado. Com lâminas afiadas e cabo ergonômico, esse cortador proporciona um corte preciso e seguro. Cuide da saúde das patas do seu pet com esse acessório indispensável."
+        },
+        {
+          "id": 505,
+          "name": "Lenços Umedecidos",
+          "old_price": 5.49,
+          "current_price": 3.99,
+          "discount": "20%",
+          "description": "Os Lenços Umedecidos são ideais para higienizar o seu cão ou gato entre os banhos. Com formulação suave e sem álcool, esses lenços removem sujeira, odores e resíduos. Mantenha o seu pet limpo e fresco com esses lenços práticos e perfumados."
+        },
+        {
+          "id": 506,
+          "name": "Escova Dental",
+          "old_price": 7.99,
+          "current_price": 5.99,
+          "discount": null,
+          "description": "A Escova Dental é essencial para manter a saúde bucal do seu pet. Com cerdas macias e cabo ergonômico, essa escova remove a placa bacteriana e massageia as gengivas. Cuide dos dentes do seu cão ou gato e previna problemas dentários com essa escova eficiente."
+        },
+        {
+          "id": 507,
+          "name": "Shampoo para Gatos",
+          "old_price": 11.99,
+          "current_price": 8.99,
+          "discount": "25%",
+          "description": "O Shampoo para Gatos oferece uma limpeza suave e eficaz para a pelagem do seu felino. Formulado para respeitar a sensibilidade da pele dos gatos, esse shampoo remove sujeira e odores indesejados, deixando um aroma delicado. Proporcione ao seu gato um banho relaxante e revigorante."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Acessórios para Cães",
+      "category_image": "https://img.freepik.com/fotos-gratis/acessorios-para-animais-de-estimacao-natureza-morta-com-tigela-de-comida-e-varias-guloseimas_23-2148949624.jpg?size=626&ext=jpg&ga=GA1.1.1303813449.1692638336&semt=ais",
+      "products": [
+        {
+          "id": 601,
+          "name": "Coleira Ajustável",
+          "old_price": 9.99,
+          "current_price": 7.99,
+          "discount": "20%",
+          "description": "A Coleira Ajustável é um acessório essencial para o seu cão. Feita com materiais resistentes e fivelas ajustáveis, essa coleira proporciona conforto e segurança durante os passeios. Escolha entre uma variedade de cores e estilos para combinar com o estilo do seu pet."
+        },
+        {
+          "id": 602,
+          "name": "Cama Confortável",
+          "old_price": 24.49,
+          "current_price": 19.99,
+          "discount": null,
+          "description": "A Cama Confortável oferece um espaço aconchegante e macio para o seu cão descansar. Com almofada removível e design acolhedor, essa cama é perfeita para garantir o conforto do seu pet durante as sonecas e noites de sono. Proporcione ao seu cão um cantinho de relaxamento."
+        },
+        {
+          "id": 603,
+          "name": "Peitoral de Passeio",
+          "old_price": 12.99,
+          "current_price": 9.99,
+          "discount": null,
+          "description": "O Peitoral de Passeio é uma alternativa confortável à coleira tradicional. Feito com materiais resistentes e ajustáveis, esse peitoral distribui a pressão de forma uniforme, evitando desconfortos no pescoço do seu cão. Passeie com o seu pet com segurança e estilo."
+        },
+        {
+          "id": 604,
+          "name": "Comedouro Antiderrapante",
+          "old_price": 6.99,
+          "current_price": 5.49,
+          "discount": "15%",
+          "description": "O Comedouro Antiderrapante é uma solução prática para a hora da alimentação do seu cão. Com base antiderrapante e design ergonômico, esse comedouro evita derramamentos e bagunça. Mantenha a área de alimentação organizada e facilite o momento da refeição do seu pet."
+        },
+        {
+          "id": 605,
+          "name": "Bolsa de Transporte",
+          "old_price": 18.99,
+          "current_price": 15.99,
+          "discount": null,
+          "description": "A Bolsa de Transporte é perfeita para levar o seu cãozinho em passeios e viagens. Feita com materiais duráveis e alças confortáveis, essa bolsa oferece segurança e conforto ao transportar o seu pet. Tenha o seu companheiro sempre ao seu lado com essa bolsa prática e estilosa."
+        },
+        {
+          "id": 606,
+          "name": "Brinquedo para Busca",
+          "old_price": 5.49,
+          "current_price": 3.99,
+          "discount": "27%",
+          "description": "O Brinquedo para Busca é ideal para cães que adoram brincadeiras de buscar objetos. Feito com material resistente e formato ergonômico, esse brinquedo é fácil de lançar e proporciona diversão interativa. Estimule o instinto de busca do seu cão com esse brinquedo dinâmico."
+        },
+        {
+          "id": 607,
+          "name": "Casinha para Cães",
+          "old_price": 34.99,
+          "current_price": 29.99,
+          "discount": null,
+          "description": "A Casinha para Cães é um espaço aconchegante e seguro para o seu pet. Com design resistente e isolante, essa casinha oferece proteção contra os elementos e proporciona um refúgio tranquilo para o seu cão. Deixe o seu pet se abrigar com conforto e segurança."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Acessórios para Gatos",
+      "category_image": "https://img.freepik.com/fotos-gratis/arranjo-de-bolsa-de-animal-de-estimacao-fofo_23-2148982395.jpg?size=626&ext=jpg&ga=GA1.1.1303813449.1692638336&semt=ais",
+      "products": [
+        {
+          "id": 701,
+          "name": "Coleira com Guizo",
+          "old_price": 7.99,
+          "current_price": 5.99,
+          "discount": "25%",
+          "description": "A Coleira com Guizo é um acessório charmoso para o seu gato. Com um guizo delicado, essa coleira adiciona um toque de diversão ao visual do seu felino. Deixe o seu gato desfilar com estilo e alegria usando essa coleira elegante."
+        },
+        {
+          "id": 702,
+          "name": "Gravata Borboleta",
+          "old_price": 4.49,
+          "current_price": 2.99,
+          "discount": null,
+          "description": "A Gravata Borboleta é um acessório adorável para gatos que gostam de estar na moda. Com um design charmoso, essa gravata borboleta acrescenta um toque de elegância ao visual do seu felino. Deixe o seu gato se destacar com essa gravata encantadora."
+        },
+        {
+          "id": 703,
+          "name": "Cama de Pelúcia",
+          "old_price": 21.99,
+          "current_price": 18.49,
+          "discount": "15%",
+          "description": "A Cama de Pelúcia oferece um cantinho de conforto e aconchego para o seu gato descansar. Com pelúcia macia e almofada removível, essa cama é perfeita para as sonecas do seu felino. Proporcione ao seu gato um espaço relaxante para relaxar e recarregar as energias."
+        },
+        {
+          "id": 704,
+          "name": "Transportadora de Gatos",
+          "old_price": 28.99,
+          "current_price": 24.99,
+          "discount": null,
+          "description": "A Transportadora de Gatos é ideal para viagens e passeios com o seu felino. Com aberturas de ventilação e alça ajustável, essa transportadora oferece segurança e conforto ao transportar o seu gato. Leve o seu felino para onde quiser com essa transportadora prática e segura."
+        },
+        {
+          "id": 705,
+          "name": "Laço de Cabelo",
+          "old_price": 3.49,
+          "current_price": 1.99,
+          "discount": "40%",
+          "description": "O Laço de Cabelo é um acessório encantador para gatos que gostam de se destacar. Com cores vibrantes e design fofo, esse laço adiciona um toque de charme ao visual do seu felino. Deixe o seu gato ainda mais adorável com esse laço colorido."
+        },
+        {
+          "id": 706,
+          "name": "Brinquedo Interativo",
+          "old_price": 6.99,
+          "current_price": 4.99,
+          "discount": null,
+          "description": "O Brinquedo Interativo é diversão garantida para gatos ativos. Com bolas giratórias e elementos que despertam a curiosidade, esse brinquedo estimula a mente e o corpo do seu felino. Proporcione ao seu gato horas de entretenimento e exercício com esse brinquedo dinâmico."
+        },
+        {
+          "id": 707,
+          "name": "Arranhador de Canto",
+          "old_price": 12.49,
+          "current_price": 9.99,
+          "discount": "20%",
+          "description": "O Arranhador de Canto é a solução perfeita para o seu gato afiar as unhas. Com design vertical que se encaixa nos cantos, esse arranhador economiza espaço e oferece uma superfície resistente para o seu felino. Mantenha as garras do seu gato saudáveis e afiadas com esse arranhador prático."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Saúde e Bem-Estar",
+      "category_image": "https://img.freepik.com/fotos-gratis/conceito-de-natureza-morta-de-acessorios-para-animais-de-estimacao-com-o-texto-eu-amo-animais-de-estimacao_23-2148949569.jpg?size=626&ext=jpg&ga=GA1.1.1303813449.1692638336&semt=ais",
+      "products": [
+        {
+          "id": 801,
+          "name": "Suplemento Multivitamínico",
+          "old_price": 12.99,
+          "current_price": 10.49,
+          "discount": null,
+          "description": "O Suplemento Multivitamínico é uma maneira de garantir que o seu cão ou gato receba as vitaminas essenciais para a saúde. Com uma fórmula balanceada, esse suplemento promove o bem-estar geral do seu pet. Mantenha o seu animal de estimação saudável e cheio de vitalidade com esse suplemento."
+        },
+        {
+          "id": 802,
+          "name": "Óleo de Salmão",
+          "old_price": 9.49,
+          "current_price": 7.29,
+          "discount": "23%",
+          "description": "O Óleo de Salmão é uma fonte de ácidos graxos essenciais para a pelagem e saúde da pele do seu cão ou gato. Com propriedades nutritivas, esse óleo melhora a qualidade da pelagem e ajuda a manter a pele hidratada. Proporcione ao seu pet os benefícios do salmão com esse suplemento saboroso."
+        },
+        {
+          "id": 803,
+          "name": "Escova Dental",
+          "old_price": 6.99,
+          "current_price": 5.19,
+          "discount": null,
+          "description": "A Escova Dental é fundamental para manter a saúde bucal do seu pet. Com cerdas macias e cabo confortável, essa escova remove a placa bacteriana e previne problemas dentários. Cuide dos dentes do seu cão ou gato e promova uma boca saudável com essa escova de qualidade."
+        },
+        {
+          "id": 804,
+          "name": "Shampoo Antipulgas",
+          "old_price": 10.99,
+          "current_price": 8.49,
+          "discount": "23%",
+          "description": "O Shampoo Antipulgas é eficaz no combate a pulgas e carrapatos, mantendo o seu cão ou gato protegido e livre desses parasitas. Com ingredientes suaves e aroma agradável, esse shampoo limpa e protege a pelagem do seu pet. Proporcione ao seu animal de estimação um banho seguro e livre de incômodos."
+        },
+        {
+          "id": 805,
+          "name": "Cama Ortopédica",
+          "old_price": 28.99,
+          "current_price": 23.99,
+          "discount": "17%",
+          "description": "A Cama Ortopédica oferece conforto e suporte para cães e gatos de todas as idades. Com espuma de memória e design ergonômico, essa cama alivia a pressão nas articulações e proporciona um descanso revitalizante. Cuide da saúde musculoesquelética do seu pet com essa cama de qualidade."
+        },
+        {
+          "id": 806,
+          "name": "Brinquedo Dental",
+          "old_price": 4.99,
+          "current_price": 3.49,
+          "discount": null,
+          "description": "O Brinquedo Dental é uma maneira divertida de cuidar da saúde bucal do seu cão. Com cerdas de borracha texturizadas, esse brinquedo limpa os dentes e massageia as gengivas enquanto o seu pet brinca. Promova a higiene oral do seu cão de forma lúdica e eficiente com esse brinquedo interativo."
+        },
+        {
+          "id": 807,
+          "name": "Comedouro Automático",
+          "old_price": 19.99,
+          "current_price": 16.49,
+          "discount": null,
+          "description": "O Comedouro Automático é uma solução prática para a alimentação do seu pet. Com compartimentos separados para ração e água, esse comedouro mantém o alimento fresco e protegido. Ideal para manter a rotina alimentar do seu cão ou gato, mesmo quando você não está em casa."
+        }
+      ]
+    }
+  ]
+}
